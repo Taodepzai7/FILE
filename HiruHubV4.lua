@@ -1823,7 +1823,7 @@ spawn(function()
 				elseif game:GetService("Players").LocalPlayer.Data.Race.Value == "Mink" then
 					for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
 						if v.Name == "StartPoint" then
-							topos(v.CFrame* CFrame.new(0,10,0))
+							topos(v.CFrame* CFrame.new(0,9,0))
 					  	end
 				   	end
 				end
