@@ -42,7 +42,7 @@ UIGradient.Parent = TextLabel
 game.StarterGui:SetCore(
     "SendNotification",
     {
-        Title = "Hiru Hub",
+        Title = "Hiru Hub [ Premium ]",
         Text = "Looking for Fruit.....",
         Duration = 999
     })
