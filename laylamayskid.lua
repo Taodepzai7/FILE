@@ -4030,7 +4030,7 @@ local SelectedFastAttackModes = Tabs.Settings:AddDropdown("SelectedFastAttackMod
 	Title = "Select Speed Attack",
 	Values = SelectedFastAttackMode,
 	Multi = false,
-	Default = 3,
+	Default = 6,
 })
 SelectedFastAttackModes:OnChanged(function(value)
 	SelectFastAttackMode = value
