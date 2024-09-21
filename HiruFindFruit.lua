@@ -43,7 +43,7 @@ game.StarterGui:SetCore(
     "SendNotification",
     {
         Title = "Hiru Hub [ Premium ]",
-        Text = "Looking for Fruit.....",
+        Text = "Looking for Fruit....",
         Duration = 999
     })
 repeat
@@ -167,7 +167,13 @@ spawn(
         )
     end
 )
-local a = game.JobId
+wait(1)
+          game.StarterGui:SetCore("SendNotification", {
+          Title = "Hiru Hub [ Premium ]",
+          Text = "Hop Server....",
+          Duration = 1,
+          })
+          Time = true
 repeat
     task.spawn(
         pcall,
