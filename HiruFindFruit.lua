@@ -172,7 +172,7 @@ repeat
     task.spawn(
         pcall,
         function()
-            Time = 0.1
+            Time = 0
             repeat
                 wait()
             until game:IsLoaded()
