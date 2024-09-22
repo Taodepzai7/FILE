@@ -1871,7 +1871,7 @@ local Toggle = Tabs.Race:AddToggle("Toggle", {
 end)
 spawn(function()
     while wait() do
-        if ChooseGear then
+        if ChooseGear and HiruHub3 then
             InstantChooseGear()
         end
     end
